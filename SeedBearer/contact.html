@@ -1,14 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="favicon_io-4/favicon-32x32.png" tyep="image/x-icon">
+    <script src="https://kit.fontawesome.com/9f533479b3.js" crossorigin="anonymous"></script>
+    <meta name="description" content="Buy quality vegetable and flower seeds. Grow your own fruit, vegetables and flowers with us">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="keywords" content="seeds, organic, uk, england">
+    <title>Contact</title>
 </head>
 
 <body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="index.html">SB</a></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="current" href="contact.html">Contact</a></li>
+
+                </ul>
+            </div>
+        </nav>
+        </div>
+
+    </header>
+
+    <section id="contact-form" class="py-3">
+        <div class="container">
+            <h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
+            <p>Please fill out the form below to contact us</p>
+            <form action="process.php">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea type="area" name="message" id="message"> </textarea>
+                </div>
+                <button class="btn" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact-info" class="bg-dark">
+        <div class="container">
+            <div class="box">
+                <i class="fas fa-search-location fa-3x"></i></i>
+                <h3>Location</h3>
+                <p>335 Normanton Rd, Derby UK</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-phone fa-3x"></i></i>
+                <h3>Phone Numeer</h3>
+                <p>07293-493885</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-envelope fa-3x"></i>
+                <h3>Email Address</h3>
+                <p>info@seedbearer.com</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <footer id="main-footer">
+        <p>SeadBearer &copy; 2021 All Rights Reserved</p>
+
+    </footer>
 
 </body>
 
